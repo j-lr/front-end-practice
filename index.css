@@ -1,0 +1,66 @@
+:root {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  color: #222;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  /* width: 26vw; */
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.5vw;
+  padding: 2%;
+  margin: 4vh 0px;
+}
+
+img {
+  margin: 0;
+  margin-bottom: 2vh;
+  padding: 0px;
+
+  width: 100%;
+  border-radius: 0.8vw;
+}
+.text {
+  margin: 0px 2vw;
+  /* line-height: clamp(0.7rem, 3vmin, 1rem); */
+  /* line-height: 1.25rem; */
+
+  font-size: 1rem;
+  /* font-size: 4vmin; */
+  /* line-height: clamp(12px, 2vh, 1rem); */
+  /* line-height: 1.4rem; */
+}
+.label {
+  font-weight: 700;
+  margin: 2vh 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .text {
+    font-size: 0.76rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .text {
+    font-size: 1.76rem;
+  }
+}
