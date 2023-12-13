@@ -1,0 +1,42 @@
+:root {
+  font-size: 16px;
+
+  --white: hsl(0, 0%, 100%);
+  --marine-blue: hsl(213, 96%, 18%);
+  --purplish-blue: hsl(243, 100%, 62%);
+  --pastel-blue: hsl(228, 100%, 84%);
+  --light-blue: hsl(206, 94%, 87%);
+  --strawberry-red: hsl(354, 84%, 57%);
+
+  --cool-gray: hsl(231, 11%, 63%);
+  --light-gray: hsl(229, 24%, 87%);
+  --magnolia: hsl(217, 100%, 97%);
+  --alabaster: hsl(231, 100%, 99%);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("./assets/fonts/Ubuntu-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Ubuntu-medium;
+  src: url("./assets/fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+  font-family: Ubuntu-bold;
+  src: url("./assets/fonts/Ubuntu-Bold.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(239, 245, 254);
+  font-family: "Ubuntu", sans-serif;
+}
+button {
+  font-family: inherit;
+}

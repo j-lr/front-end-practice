@@ -1,0 +1,56 @@
+.root {
+  display: flex;
+
+  border-radius: 8px;
+  justify-content: center;
+
+  /* margin: 2vh 0.24rem; */
+  height: fit-content;
+}
+.content {
+  margin: 10vh 10vw;
+  display: flex;
+  background-color: var(--white);
+  border-radius: 8px;
+  justify-content: center;
+  width: fit-content;
+
+  padding: 2vh 0.24rem;
+}
+
+.sidebar {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  background: url("assets/images/bg-sidebar-desktop.svg") no-repeat center
+    center;
+  background-size: cover;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.step {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 2vh 2vw;
+  margin-left: clamp(1rem, 6vw, 50px);
+
+  width: fit-content;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: clamp(0.5rem, 2vh, 1rem);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
